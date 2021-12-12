@@ -75,15 +75,15 @@
 	});
 
 
-	//sticky-menu
-	$(window).on('scroll', function () {
-		var scroll = $(window).scrollTop();
-		if (scroll < 200) {
-			$(".main-header-area").removeClass("sticky");
-		} else {
-			$(".main-header-area").addClass("sticky");
-		}
-	});
+//	//sticky-menu
+//	$(window).on('scroll', function () {
+//		var scroll = $(window).scrollTop();
+//		if (scroll < 200) {
+//			$(".main-header-area").removeClass("sticky");
+//		} else {
+//			$(".main-header-area").addClass("sticky");
+//		}
+//	});
 
 
 
