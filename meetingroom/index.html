@@ -7,14 +7,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.ico">
     <script type="text/javascript">
       window.onload = () => {
+        const options = {
+            configOverwrite: { enableClosePage: true }
+        };
         const api = new JitsiMeetExternalAPI("8x8.vc", {
           roomName: "vpaas-magic-cookie-ed6e68c9b2f74ffaa05bd3ce4fa99748/TagprosMarketingRoom",
           parentNode: document.querySelector('#jaas-container')
         });
-        const options = {
-            configOverwrite: { enableClosePage: true }
-        };
-        const api = new JitsiMeetExternalAPI(domain, options);
       }
     </script>
   </head>
